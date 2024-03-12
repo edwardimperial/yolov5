@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['LEDs']
+
+roboflow:
+  workspace: adcs-object-detection-labelling
+  project: led-detection-drlt5
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adcs-object-detection-labelling/led-detection-drlt5/dataset/10
